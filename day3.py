@@ -34,11 +34,8 @@ and it will add in the last index position,each value or substring is each index
 Syntax:
 variable_name.extend(iterable)
 Ex:
-so = "Python is a language"
-print(so.replace("Python","Java"))
-print(so)
 any = [1,2,3]
-any.append(6)
+any.extend([4,5])
 print(any)
 
 Note:
@@ -75,4 +72,11 @@ Mutable
 -------
 -->Can able to modify on that particular variable.
 Ex:List
+
+so = "Python is a language"
+print(so.replace("Python","Java"))
+print(so)
+any = [1,2,3]
+any.append(6)
+print(any)
 '''
